@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "souliss-python-bridge"
+version = "0.1.0"
+description = ""
+authors = ["Luca Calcaterra <calcaterra.luca@gmail.com>"]
+readme = "README.md"
+packages = [{include = "souliss_python_bridge"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
